@@ -1,19 +1,24 @@
 @page
 @model hw1.Pages.ProductListModel
 @{
-    Layout = null;
+    ViewData["Title"] = "Product list page";
 }
 
-<!DOCTYPE html>
+<div class="text-center">
+    <h2 class="display-4">Corey Zhou</h2>
+    <h2 class="display-4">Spring 2020</h2>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>ProductList</title>
-</head>
-<body>
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
-</body>
-</html>
+<div class="card-columns">
+    @foreach (var product in Model.Products)
+    {
+        <div class="card">
+            <div class="card-img" style="background-image: url('@product.Image');"></div>
+            <div class="card-body">
+                <h5 class="card-title">@product.Title</h5>
+            </div>
+        </div>
+
+    }
+</div>
