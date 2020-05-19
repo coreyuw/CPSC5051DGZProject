@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReuseSU", "hw1\ReuseSu.csproj", "{D5290563-22D4-47E4-9662-7D829FF1AB15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReuseSU", "ReuseSU\ReuseSU.csproj", "{D5290563-22D4-47E4-9662-7D829FF1AB15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
