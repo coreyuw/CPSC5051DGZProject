@@ -6,6 +6,11 @@
 
 
 
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'ReuseSu' ">
+    <StartAction>Project</StartAction>
+    <ExternalConsole>true</ExternalConsole>
+    <ApplicationURL>http://localhost:5000</ApplicationURL>
+  </PropertyGroup>
   <ItemGroup>
     <Folder Include="wwwroot\data\" />
     <Folder Include="Models\" />
