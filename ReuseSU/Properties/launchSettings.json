@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "ReuseSu": {
+    "ReuseSU": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

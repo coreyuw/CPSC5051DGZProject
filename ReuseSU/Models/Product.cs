@@ -2,7 +2,7 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace hw1.Models
+namespace ReuseSU.Models
 {
     public class Product
     {
