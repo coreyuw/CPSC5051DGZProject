@@ -2,10 +2,10 @@
   {
     "Id": "jenlooper-cactus",
     "Maker": "@jenlooper",
-    "img": "https://user-images.githubusercontent.com/41929050/61567048-13938600-aa33-11e9-9cfd-712191013192.jpeg",
+    "img": "https://www.ikea.com/us/en/images/products/ingo-table-pine__0737092_PE740877_S5.JPG",
     "Url": "https://www.hackster.io/agent-hawking-1/the-quantified-cactus-an-easy-plant-soil-moisture-sensor-e65393",
-    "Title": "The Quantified Cactus: An Easy Plant Soil Moisture Sensor",
-    "Description": "This project is a good learning project to get comfortable with soldering and programming an Arduino.",
+    "Title": "Light Beige Table",
+    "Description": "Seats 4. Recommended for indoor use only. For increased stability, re-tighten the screws about two weeks after assembly and when necessary.",
     "Ratings": [
       5,
       5
@@ -14,46 +14,46 @@
   {
     "Id": "jenlooper-light",
     "Maker": "jenlooper",
-    "img": "https://user-images.githubusercontent.com/41929050/61567049-13938600-aa33-11e9-9c69-a4184bf8e524.jpeg",
+    "img": "https://img1.exportersindia.com/product_images/bc-full/dir_103/3081060/computer-keyboard-1162231.jpg",
     "Url": "https://www.hackster.io/agent-hawking-1/book-light-dee7e4",
-    "Title": "A beautiful switch-on book light",
-    "Description": "Use craft items you have around the house, plus two LEDs and a LilyPad battery holder, to create a useful book light for reading in the dark.",
+    "Title": "Simple black keyboard",
+    "Description": "This long, slim keyboard features comfortably spaced keys. Slimmer than most, this attractive, shiny black keyboard is modern and stylish.",
     "Ratings": null
   },
   {
     "Id": "jenlooper-lightshow",
     "Maker": "@jenlooper",
-    "img": "https://user-images.githubusercontent.com/41929050/61567053-13938600-aa33-11e9-9780-104fe4019659.png",
+    "img": "https://www.boconcept.com/on/demandware.static/-/Sites-master-catalog/default/dw85ce0180/images/290000/295526.jpg",
     "Url": "https://www.hackster.io/agent-hawking-1/bling-your-laptop-with-an-internet-connected-light-show-30e4db",
-    "Title": "Bling your Laptop with an Internet-Connected Light Show",
-    "Description": "Create a web-connected light-strip API controllable from your website, using the Particle.io.",
+    "Title": "Elegant white chair",
+    "Description": "The white chair is all about curves, comfort and character. With a graceful, organic form and sublime comfort this modern chair will set an elegant tone in your home.",
     "Ratings": null
   },
   {
     "Id": "jenlooper-survival",
     "Maker": "jenlooper",
-    "img": "https://user-images.githubusercontent.com/41929050/61567051-13938600-aa33-11e9-8ae7-0b5c19aafab4.jpeg",
+    "img": "https://cdn-images.article.com/products/SKU45A/2890x1500/image43848.jpg?w=2890",
     "Url": "https://www.hackster.io/agent-hawking-1/create-a-compact-survival-kit-38bfdb",
-    "Title": "Create a Compact Survival Kit with LED Track Lighting",
-    "Description": "Use an Altoids tin with Chibitronics sticker LEDs to create a light-up compact that doubles as a survival kit for the young hipster",
+    "Title": "Round Dining Table",
+    "Description": "Luxurious and versatile make up the characteristics of the dining table. A stunning sunburst wood veneer top adds glamour while its dynamic centered leg design lends it a wonderful sculptural feel.",
     "Ratings": null
   },
   {
     "Id": "sailorhg-bubblesortpic",
     "Maker": "sailorhg",
-    "img": "https://user-images.githubusercontent.com/41929050/61567054-13938600-aa33-11e9-9163-eec98e239b7a.png",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/41srzfxYpXL._AC_.jpg",
     "Url": "https://twitter.com/sailorhg/status/1090107740049952770",
-    "Title": "Bubblesort Visualization",
-    "Description": "Visualization of sailor scouts sorted by bubblesort algorithm by their planet's distance from the sun",
+    "Title": "Sturdy headphones",
+    "Description": "The flexible boom microphone enabled the newest noise cancelling tech.It can pick up your voice exactly and block most noise from the surroundings",
     "Ratings": null
   },
   {
     "Id": "sailorhg-corsage",
     "Maker": "sailorhg",
-    "img": "https://user-images.githubusercontent.com/41929050/61567055-142c1c80-aa33-11e9-96ff-9fbac6413625.png",
+    "img": "https://images.homedepot-static.com/productImages/10105a5b-1959-4707-9fba-0677976f1d12/svn/brushed-nickel-hampton-bay-table-lamps-hw-t2824lstca-64_1000.jpg",
     "Url": "https://twitter.com/sailorhg/status/1090113666911891456",
-    "Title": "Light-up Corsage",
-    "Description": "Light-up corsage I made with my summer intern.",
+    "Title": "Stick table lamp",
+    "Description": "Elegant brushed nickel finish and white marble base Perfect for your living room, foyer or family room.",
     "Ratings": null
   },
   {
