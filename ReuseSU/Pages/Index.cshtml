@@ -17,13 +17,13 @@
         </div>
         <div class="col-md-8">
             <div class="card-columns">
-                @foreach (var product in Model.Products)
+                @for (var i = 0; i < 6; i++)
                 {
                     <div class="card">
-                        <div class="card-img" style="background-image: url('@product.Image');"></div>
+                        <div class="card-img" style="background-image: url('@Model.Products.ToList()[i].Image');"></div>
                         <div class="card-body">
-                            <h5 class="card-title">@product.Title</h5>
-                            <a asp-page="" class="btn btn-primary">View</a>
+                            <h5 class="card-title">@Model.Products.ToList()[i].Title</h5>
+                            <a asp-page="#" class="btn btn-primary">View</a>
                         </div>
                     </div>
                 }
