@@ -1,0 +1,71 @@
+@page
+@model ReuseSU.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="list-group">
+                <a asp-page="/Furniture" class="list-group-item list-group-item-action">Furniture</a>
+                <a asp-page="/Electronics" class="list-group-item list-group-item-action">Electronics</a>
+                <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="card-columns">
+                <div class="card">
+                    <div class="card-img" style="background-image: url('@Model.Products.ToList()[1].Image');"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">@Model.Products.ToList()[1].Title</h5>
+                        <a asp-page="#" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img" style="background-image: url('@Model.Products.ToList()[4].Image');"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">@Model.Products.ToList()[4].Title</h5>
+                        <a asp-page="#" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img" style="background-image: url('@Model.Products.ToList()[5].Image');"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">@Model.Products.ToList()[5].Title</h5>
+                        <a asp-page="#" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <nav class="navbar navbar-light">
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Type item name..." aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4 text-center">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#" tabindex="-1">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
