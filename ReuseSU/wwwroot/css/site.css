@@ -10,6 +10,15 @@
   cursor: pointer;
 }
 
+.email-svg {
+    margin: 10px 10px 0 0;
+}
+
+.email-explain {
+    display: flex;
+    flex-direction: row;
+}
+
 .badge-component {
     margin-right: 20px;
     text-align: center;
