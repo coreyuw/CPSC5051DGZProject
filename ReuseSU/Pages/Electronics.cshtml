@@ -17,27 +17,30 @@
         </div>
         <div class="col-md-8">
             <div class="card-columns">
-                <div class="card">
-                    <div class="card-img" style="background-image: url('@Model.Products.ToList()[1].Image');"></div>
-                    <div class="card-body">
-                        <h5 class="card-title">@Model.Products.ToList()[1].Title</h5>
-                        <a asp-page="#" class="btn btn-primary">View</a>
+                <a asp-page="/ViewItem1">
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('@Model.Products.ToList()[1].Image');"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">@Model.Products.ToList()[1].Title</h5>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card-img" style="background-image: url('@Model.Products.ToList()[4].Image');"></div>
-                    <div class="card-body">
-                        <h5 class="card-title">@Model.Products.ToList()[4].Title</h5>
-                        <a asp-page="#" class="btn btn-primary">View</a>
+                </a>
+                <a asp-page="/ViewItem4">
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('@Model.Products.ToList()[4].Image');"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">@Model.Products.ToList()[4].Title</h5>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card-img" style="background-image: url('@Model.Products.ToList()[5].Image');"></div>
-                    <div class="card-body">
-                        <h5 class="card-title">@Model.Products.ToList()[5].Title</h5>
-                        <a asp-page="#" class="btn btn-primary">View</a>
+                </a>
+                <a asp-page="/ViewItem5">
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('@Model.Products.ToList()[5].Image');"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">@Model.Products.ToList()[5].Title</h5>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <div class="col-md-2">
