@@ -6,6 +6,10 @@
     opacity: 0.25;
 }
 
+.big-margin-top {
+    margin-top: 100px;
+}
+
 .fa-star {
   cursor: pointer;
 }
