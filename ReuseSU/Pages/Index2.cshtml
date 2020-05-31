@@ -19,13 +19,14 @@
             <div class="card-columns">
                 @for (var i = 6; i < 12; i++)
                 {
-                    <div class="card">
-                        <div class="card-img" style="background-image: url('@Model.Products.ToList()[i].Image');"></div>
-                        <div class="card-body">
-                            <h5 class="card-title">@Model.Products.ToList()[i].Title</h5>
-                            <a asp-page="#" class="btn btn-primary">View</a>
+                    <a asp-page="/ViewItem@(i)">
+                        <div class="card">
+                            <div class="card-img" style="background-image: url('@Model.Products.ToList()[i].Image');"></div>
+                            <div class="card-body">
+                                <h5 class="card-title">@Model.Products.ToList()[i].Title</h5>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 }
             </div>
         </div>
