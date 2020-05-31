@@ -2,6 +2,10 @@
   color: orange;
 }
 
+.unearned-reward {
+    opacity: 0.25;
+}
+
 .fa-star {
   cursor: pointer;
 }
