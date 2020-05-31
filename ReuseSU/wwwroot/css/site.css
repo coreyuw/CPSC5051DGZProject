@@ -68,17 +68,6 @@ a {
    color: #0366d6;
 }
 
-.btn-primary {
-    color: #fff;
-    background-color: #252152;
-    border-color: #252152;
-}
-.btn-primary:hover {
-    color: #fff;
-    background-color: #e9a8a6;
-    border-color: #e9a8a6;
-}
-
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1b6ec2;
