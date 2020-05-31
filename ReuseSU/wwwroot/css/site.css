@@ -10,6 +10,20 @@
   cursor: pointer;
 }
 
+.badge-component {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.badges-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-badge {
+    width: 50px;
+}
+
 .rank-image {
     height: 500px;
 }
