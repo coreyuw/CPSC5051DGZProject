@@ -5,29 +5,42 @@
 }
 
 <div class="container-fluid">
+
     <div class="row">
+
         <div class="col-md-2">
 
         </div>
+
         <div class="col-md-8">
+
             <h2>@Model.Products.ToList()[1].Title <span class="badge badge-pill badge-warning">Pending</span></h2>
             <h5>Item Description: @Model.Products.ToList()[1].Description</h5>
-            <img src="@Model.Products.ToList()[1].Image" style="width:900px;height:300px;" />
+            <img src="@Model.Products.ToList()[1].Image" id="ViewItemImage1"/>
         </div>
+
         <div class="col-md-2">
 
         </div>
+
     </div>
+
     <div class="row">
+
         <div class="col-md-2">
 
         </div>
+
         <div class="col-md-8">
+
             <a asp-page="/ClaimItem" class="btn btn-primary">Claim</a>
+
         </div>
+
         <div class="col-md-2">
 
         </div>
+
     </div>
 
 </div>
