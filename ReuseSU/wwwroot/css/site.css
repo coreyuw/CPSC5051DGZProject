@@ -189,3 +189,7 @@ ul {
 #logo {
     color: white !important;
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
