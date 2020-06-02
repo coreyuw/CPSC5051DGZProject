@@ -7,8 +7,14 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ReuseSU.Pages
 {
+    /// <summary>
+    /// Model class for the ClaimItem.cshtml.cs page
+    /// </summary>
     public class ClaimItemModel : PageModel
     {
+        /// <summary>
+        /// function called when the page is loaded
+        /// </summary>
         public void OnGet()
         {
         }
