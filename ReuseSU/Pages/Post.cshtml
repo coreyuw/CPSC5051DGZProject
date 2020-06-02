@@ -6,7 +6,7 @@
 
 <div class="container" style="margin-top:30px">
   <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-5">
           <form>
               <div class="custom-file" style="margin-top:32px">
                   <input type="file" class="custom-file-input" id="customFile">
@@ -39,10 +39,10 @@
                   <label for="comment">Description:</label>
                   <textarea class="form-control" rows="5" id="comment"></textarea>
               </div>
+              <div class="col-sm-7" style="margin-top:120px">
+                  <a asp-page="/SuccessfulPost" class="btn btn-primary btn-lg">Post Item!</a>
+              </div>
           </form>
-      </div>
-      <div class="col-sm-3">
-          <a asp-page="/SuccessfulPost" class="btn btn-primary btn-lg">Post Item!</a>
       </div>
     </div>
   </div>
