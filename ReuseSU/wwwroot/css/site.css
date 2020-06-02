@@ -86,6 +86,17 @@
     width: 300px;
 }
 
+#ViewItemImage0 {
+    width: 500px !important;
+    height: 400px !important;
+}
+
+#ViewItemImage1 {
+    width: 900px !important;
+    height: 300px !important;
+}
+
+
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 .card-columns .card:hover .card-img {
