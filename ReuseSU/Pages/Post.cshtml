@@ -4,25 +4,44 @@
     ViewData["Title"] = "Post Item";
 }
 
-<div class="container" style="margin-top:30px">
+<div class="container margin-top_30">
+
   <div class="row">
+
       <div class="col-sm-5">
+
           <form>
-              <div class="custom-file" style="margin-top:32px">
+
+              <div class="custom-file margin-top_32">
+
                   <input type="file" class="custom-file-input" id="customFile">
+
                   <label class="custom-file-label" for="customFile">Choose file</label>
+
               </div>
+
           </form>
+
       </div>
+
       <div class="col-sm-5">
+
           <form>
+
               <div class="form-group">
+
                   <label for="title">Title:</label>
+
                   <input type="text" class="form-control" id="title">
+
               </div>
+
               <div class="form-group">
+
                   <label for="sel1">Item Category:</label>
+
                   <select class="form-control" id="sel1">
+
                       <option>Furniture</option>
                       <option>Small Appliance</option>
                       <option>Book(s)</option>
@@ -33,18 +52,31 @@
                       <option>Exercise Equipment</option>
                       <option>Kid's Stuff</option>
                       <option>Other</option>
+
                   </select>
+
               </div>
+
               <div class="form-group">
+
                   <label for="comment">Description:</label>
+
                   <textarea class="form-control" rows="5" id="comment"></textarea>
+
               </div>
-              <div class="row justify-content-center" style="margin-top:10px">
+
+              <div class="row justify-content-center margin-top_10">
+
                   <a asp-page="/SuccessfulPost" class="btn btn-primary btn-lg">Post Item!</a>
+
               </div>
+
           </form>
+
       </div>
+
     </div>
+
   </div>
 
 
