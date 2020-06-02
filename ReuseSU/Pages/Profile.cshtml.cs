@@ -7,8 +7,14 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ReuseSU.Pages
 {
+    /// <summary>
+    /// Model class for the Profile.cshtml.cs page
+    /// </summary>
     public class ProfileModel : PageModel
     {
+        /// <summary>
+        /// function called when the page is loaded
+        /// </summary>
         public void OnGet()
         {
 
