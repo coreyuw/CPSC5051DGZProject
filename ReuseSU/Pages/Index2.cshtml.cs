@@ -7,8 +7,14 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ReuseSU.Pages
 {
+    /// <summary>
+    /// Model class for Index2.cshtml.cs home page
+    /// </summary>
     public class Index2Model : PageModel
     {
+        /// <summary>
+        /// function called when the page is loaded
+        /// </summary>
         public void OnGet()
         {
 
