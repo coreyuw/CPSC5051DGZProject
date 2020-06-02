@@ -24,6 +24,5 @@
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\img\SeattleU_logo.png" />
-    <Content Remove="wwwroot\img\single-sign-on\SSO_top.png" />
   </ItemGroup>
 </Project>
