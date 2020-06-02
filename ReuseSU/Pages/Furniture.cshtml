@@ -5,65 +5,125 @@
 }
 
 <div class="container-fluid">
+
     <div class="row">
+
         <div class="col-md-2">
+
             <div class="list-group">
+
                 <a asp-page="/Furniture" class="list-group-item list-group-item-action">Furniture</a>
                 <a asp-page="/Electronics" class="list-group-item list-group-item-action">Electronics</a>
-                <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-                <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-                <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+                <a href="#" class="list-group-item list-group-item-action">Decoration</a>
+                <a href="#" class="list-group-item list-group-item-action">Soft Article Goods</a>
+                <a href="#" class="list-group-item list-group-item-action">Books</a>
+                <a href="#" class="list-group-item list-group-item-action">Others</a>
+
             </div>
+
         </div>
+
         <div class="col-md-8">
+
             <div class="card-columns">
+
                 <a asp-page="/ViewItem0">
+
                     <div class="card">
-                        <div class="card-img" style="background-image: url('@Model.Products.ToList()[0].Image');"></div>
+
+                        <div class="card-img" style="background-image: url('@Model.Products.ToList()[0].Image');">
+
+                        </div>
+
                         <div class="card-body">
+
                             <h5 class="card-title">@Model.Products.ToList()[0].Title</h5>
+
                         </div>
+
                     </div>
+
                 </a>
+
                 <a asp-page="/ViewItem2">
+
                     <div class="card">
-                        <div class="card-img" style="background-image: url('@Model.Products.ToList()[2].Image');"></div>
+
+                        <div class="card-img" style="background-image: url('@Model.Products.ToList()[2].Image');">
+
+                        </div>
+
                         <div class="card-body">
+
                             <h5 class="card-title">@Model.Products.ToList()[2].Title</h5>
+
                         </div>
+
                     </div>
+
                 </a>
+
                 <a asp-page="/ViewItem3">
+
                     <div class="card">
-                        <div class="card-img" style="background-image: url('@Model.Products.ToList()[3].Image');"></div>
+
+                        <div class="card-img" style="background-image: url('@Model.Products.ToList()[3].Image');">
+
+                        </div>
+
                         <div class="card-body">
+
                             <h5 class="card-title">@Model.Products.ToList()[3].Title</h5>
+
                         </div>
+
                     </div>
+
                 </a>
+
                 <a asp-page="/ViewItem5">
+
                     <div class="card">
-                        <div class="card-img" style="background-image: url('@Model.Products.ToList()[5].Image');"></div>
-                        <div class="card-body">
-                            <h5 class="card-title">@Model.Products.ToList()[5].Title</h5>
+
+                        <div class="card-img" style="background-image: url('@Model.Products.ToList()[5].Image');">
+
                         </div>
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">@Model.Products.ToList()[5].Title</h5>
+
+                        </div>
+
                     </div>
+
                 </a>
+
             </div>
+
         </div>
+
         <div class="col-md-2">
+
             <nav class="navbar navbar-light">
                 <form class="form-inline">
                     <input class="form-control mr-sm-2" type="search" placeholder="Type item name..." aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit" asp-page="/School">Search</button>
                 </form>
             </nav>
+
         </div>
+
     </div>
+
     <div class="row">
+
         <div class="col-md-4">
+
         </div>
+
         <div class="col-md-4 text-center">
+
             <nav aria-label="Page navigation example">
                 <ul class="pagination">
                     <li class="page-item">
@@ -77,6 +137,9 @@
                     </li>
                 </ul>
             </nav>
+
         </div>
+
     </div>
+
 </div>
