@@ -9,7 +9,7 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'ReuseSU' ">
     <StartAction>Project</StartAction>
     <ExternalConsole>true</ExternalConsole>
-    <ApplicationURL>http://localhost:60660</ApplicationURL>
+    <ApplicationURL>http://localhost:27374</ApplicationURL>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="wwwroot\data\" />
